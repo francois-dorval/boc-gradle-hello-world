@@ -1,5 +1,5 @@
 # Fail gradle
-ça marche pas :-\
+ça marchait pas mais c'est réparé depuis
 
 ### Il faut
 - que ça compile
