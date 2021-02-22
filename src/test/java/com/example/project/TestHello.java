@@ -21,10 +21,5 @@ public class TestHello {
      // action
      Hello.main(null);
 
-     // assertion
-     assertEquals("Hello world!\n", bos.toString());
-
-     // undo the binding in System
-     System.setOut(originalOut);
    }
 }
