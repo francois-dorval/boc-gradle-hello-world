@@ -12,7 +12,6 @@ pipeline {
         stage('Build') {
             steps {
                 git 'https://github.com/francois-dorval/boc-gradle-hello-world.git'
-                input 'continuer?'
                 sh "./gradlew clean build"
                 
                 
